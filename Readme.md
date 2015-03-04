@@ -1,1 +1,1 @@
-[Image du mockup](mockup.png)
+![Image du mockup](mockup.png)
