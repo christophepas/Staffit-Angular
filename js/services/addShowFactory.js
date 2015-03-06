@@ -1,13 +1,13 @@
 
 app.factory('addShowFactory', function(){
 
-	var addShow = function(show){
+	var addShow = function(movie,date){
 
 		var Show = Parse.Object.extend("Shows");
 		var newShow = new Show;
 
-		newShow.set("Movie",show.id);
-		newShow.set("Time");
+		newShow.set("Movie",movie.id);
+		newShow.set("Time",date);
 
 		var deferred = $q.defer();
 
